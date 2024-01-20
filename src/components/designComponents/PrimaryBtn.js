@@ -2,10 +2,15 @@ import { Button, Typography } from "@mui/material";
 import React from "react";
 
 const customBtnStyle = {
-  backgroundColor: "#272643",
+  backgroundColor: "#1A87DD",
   color: "white",
-  borderRadius: "20px",
+  borderRadius: "10px",
   padding: "10px 25px",
+  textTransform:"none",
+  textAlign: "center",
+  width: "315px",
+  height:"49px"
+
 };
 
 const PrimaryBtn = ({ text, onClick, icon = null, disabled = false }) => {
@@ -16,7 +21,7 @@ const PrimaryBtn = ({ text, onClick, icon = null, disabled = false }) => {
       onClick={onClick}
       disabled={disabled}
     >
-      <Typography>{text}</Typography>
+      <Typography fontSize={14}>{text}</Typography>
     </Button>
   );
 };

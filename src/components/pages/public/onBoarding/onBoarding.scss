@@ -1,0 +1,120 @@
+
+.carousel-item{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#carouselExampleDark{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 30px;
+    height: 700px;
+    margin-top: 40px;
+    
+    .carousel-content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 100px;
+        margin: 0 auto;
+        height: 200px;
+        padding-top: 64px;
+    }
+    .indicators{
+        margin-top: 100px;
+    
+    }
+    bottom{
+        margin-top: 10px;
+    }
+    .container{
+        display: flex;
+        height: 700px;
+        width: 100%;
+    }
+  
+    .carousel-inner{
+        margin: 0 auto;
+    }
+    h5{
+        height: 30px;
+        text-align: center;
+        color: #1A1A1A;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 150% */
+    }
+    
+    p{
+        margin-top: 8px;
+        padding-bottom: 20px;
+        color: #1A1A1A;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 171.429% */
+    }
+    .carousel-btn{
+        background-color: #1A87DD;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 49px;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        flex-shrink: 0;
+        border-radius: 10px;
+        color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 21px; 
+    }
+    .carousel-booton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 49px;
+        margin-top: 100px;
+        width: 100%;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #1A87DD;
+        color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 21px; 
+    }
+}
+
+#carousel-onboarding {
+    .carousel-booton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 49px;
+        margin-top: 40px;
+        width: 100%;
+        flex-shrink: 0;
+        border-radius: 10px;
+        color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 21px; 
+    }
+}
+.carusel-data{
+    margin: 0 auto;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon 
+{ display: none; }

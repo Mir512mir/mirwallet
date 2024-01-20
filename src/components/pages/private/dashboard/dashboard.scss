@@ -1,0 +1,55 @@
+.container_dashboard {
+
+    display: flex;
+    flex-direction: column;
+    
+    .header_dashboard {
+        height: 30%;
+        color: white;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(./../../../../assets/bg2colors.png);
+        .title_dashboard,.info_balance{
+            font-size: 20px;
+        }
+        .ava{
+            display: flex;
+            align-items: center;
+            justify-content: end;
+        } 
+     .litle_title {
+            opacity: 0.5;
+            font-family: SF Pro Rounded;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            /* 150% */
+        }
+    }
+
+    .money{
+
+        font-family: SF Pro Rounded;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+    
+
+        /* 100% */
+        .img_ntf {
+            width: 7px;
+            height: 8px;
+            flex-shrink: 0;
+        }
+    }
+}
+
+
+
+.avatar_user {
+    
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

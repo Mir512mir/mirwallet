@@ -1,0 +1,76 @@
+.my_info {
+    display: flex;
+    flex-direction: column;
+    .back_icn {
+        width: 18px;
+        height: 18px;
+    }
+
+    .title_myinfo {
+        color: #1A1A1A;
+        text-align: center;
+        font-family: SF Pro Rounded;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 30px;
+        /* 150% */
+
+    }
+
+    .upload_avatar {
+        color: #1A87DD;
+        text-align: center;
+        font-family: SF Pro Rounded;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        /* 150% */
+    }
+
+    .prf_icon {
+      
+        min-width: 100px;
+        height: 100px;
+        border-radius:50%;
+
+    }
+
+    .form_login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .names,.url_avatar,.phonenumber {
+        width: 315px;
+        height: 49px;
+        flex-shrink: 0;
+        color: #1A1A1A;
+        font-family: SF Pro Rounded;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        border-radius: 10px;
+        padding: 5px;
+        border: 1px solid rgba(26, 26, 26, 0.10);
+        background: #FFF;
+    }
+    
+
+    b {
+        color: #1A1A1A;
+        font-family: SF Pro Rounded;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 21px;
+        /* 150% */
+    }
+
+
+
+}

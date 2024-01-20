@@ -1,0 +1,99 @@
+.container_login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./../../../../assets/Backgroundpath.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    h1 {
+        color: #1A1A1A;
+        font-family: SF Pro Rounded;
+        font-size: 32px;
+        font-weight: 900;
+    }
+
+    .btn {
+        width: 140px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #F3F4F5;
+        color: #1A1A1A;
+        font-family: SF Pro Rounded;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    input {
+        width: 315px;
+        height: 49px;
+        flex-shrink: 0;
+        color: #1A1A1A;
+        font-family: SF Pro Rounded;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        border-radius: 10px;
+        border: 1px solid rgba(26, 26, 26, 0.10);
+        background: #FFF;
+    }
+
+    b {
+        color: #1A1A1A;
+        font-family: SF Pro Rounded;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 21px;
+        /* 150% */
+    }
+
+    .forgot-pass {
+        display: flex;
+        justify-content: end;
+        color: #1A87DD;
+        font-family: SF Pro Rounded;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .btn_login {
+        color: #FFF;
+        font-family: SF Pro Rounded;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        /* 150% */
+        border-radius: 10px;
+        background: #1A87DD;
+        color: #FFF;
+        width: 315px;
+        height: 49px;
+        flex-shrink: 0;
+    }
+
+    .create_account {
+        color: #1A87DD;
+        font-family: SF Pro Rounded;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 21px;
+    }
+    .forget_psw{
+        color: #1A87DD;
+        font-family: SF Pro Rounded;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 21px;
+    }
+}

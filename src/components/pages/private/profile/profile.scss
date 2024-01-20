@@ -1,0 +1,49 @@
+._profile {
+    display: flex;
+    flex-direction: column;
+    .my_title {
+        color: #1A1A1A;
+        font-family: SF Pro Rounded;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: bold;
+        
+        /* 150% */
+    }
+    .useroval{
+        min-width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+
+    .my_fullname {
+        color: #1A1A1A;
+        text-align: center;
+        font-family: SF Pro Rounded;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+    }
+
+    .header_ctn_profile {
+        display: flex;
+        flex-direction: column;
+        background: #F3F4F5;
+    }
+
+    .form-select {
+        width: 100%;
+    }
+
+    .profile-main{
+        margin: 15px 5px;
+        padding: 5px 10px;
+        border-radius: 15px;
+        background: #F3F4F5;
+        color: #1A1A1A;
+        font-size: 14px;
+        line-height: 41px; /* 150% */
+    }
+}
